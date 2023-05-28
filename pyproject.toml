@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "naval-battle"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Kuzmin <andromed-ku@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "naval_battle"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.0.0b6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
