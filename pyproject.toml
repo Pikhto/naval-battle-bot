@@ -9,6 +9,7 @@ packages = [{include = "naval_battle"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 aiogram = "^3.0.0b6"
+environs = "^9.5.0"
 
 
 [build-system]
